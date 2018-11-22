@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nhnent.edu.springboot</groupId>
+    <artifactId>edu-web-application</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <!-- 스프링부트 최상위 dependency -->
+    <!-- スプリングブート最上位dependency -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.17.RELEASE</version>
+    </parent>
+
+    <!-- 사내 Maven Repository -->
+    <!-- 社内Maven Repository -->
+    <repositories>
+        <repository>
+            <id>nhnent-public</id>
+            <name>NHN Ent public</name>
+            <url>http://nexus.nhnent.com/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <!-- 스프링부트 스타터(웹개발용) -->
+    <!-- スプリングブートスターター(ウェブ開発用) -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!-- 스프링부트 플러그인 -->
+    <!-- スプリング·プラグイン -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
