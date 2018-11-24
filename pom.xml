@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nhnent.edu.springboot</groupId>
-    <artifactId>edu-web-application</artifactId>
+    <artifactId>edu-springboot-simpleweb-application</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -16,16 +16,6 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.17.RELEASE</version>
     </parent>
-
-    <!-- 사내 Maven Repository -->
-    <!-- 社内Maven Repository -->
-    <repositories>
-        <repository>
-            <id>nhnent-public</id>
-            <name>NHN Ent public</name>
-            <url>http://nexus.nhnent.com/content/groups/public/</url>
-        </repository>
-    </repositories>
 
     <!-- 스프링부트 스타터(웹개발용) -->
     <!-- スプリングブートスターター(ウェブ開発用) -->
@@ -46,5 +36,15 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- 사내 Maven Repository -->
+    <!-- 社内Maven Repository -->
+    <repositories>
+        <repository>
+            <id>nhnent-public</id>
+            <name>NHN Ent public</name>
+            <url>http://nexus.nhnent.com/content/groups/public/</url>
+        </repository>
+    </repositories>
 
 </project>
