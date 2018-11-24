@@ -17,12 +17,19 @@
         <version>1.5.17.RELEASE</version>
     </parent>
 
-    <!-- 스프링부트 스타터(웹개발용) -->
-    <!-- スプリングブートスターター(ウェブ開発用) -->
     <dependencies>
+        <!-- 스프링부트 스타터(웹개발용) -->
+        <!-- スプリングブートスターター(ウェブ開発用) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- 스프링부트 프리마커 -->
+        <!-- スプリングブートフリーマーカー -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
     </dependencies>
 
