@@ -1,7 +1,6 @@
 package com.nhnent.edu.springboot;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ExampleApplication.class);
+        SpringApplication.run(ExampleApplication.class, args);
     }
 
     @GetMapping("/hello")
