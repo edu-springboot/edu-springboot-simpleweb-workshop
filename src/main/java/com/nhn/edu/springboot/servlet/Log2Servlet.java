@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.servlet;
+package com.nhn.edu.springboot.servlet;
 
 import org.springframework.web.servlet.HttpServletBean;
 

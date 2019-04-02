@@ -1,7 +1,7 @@
-package com.nhnent.edu.springboot.configuration;
+package com.nhn.edu.springboot.configuration;
 
-import com.nhnent.edu.springboot.servlet.Log1Servlet;
-import com.nhnent.edu.springboot.servlet.Log2Servlet;
+import com.nhn.edu.springboot.servlet.Log1Servlet;
+import com.nhn.edu.springboot.servlet.Log2Servlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.filter;
+package com.nhn.edu.springboot.filter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
